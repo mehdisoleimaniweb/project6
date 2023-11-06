@@ -1,7 +1,7 @@
 # project6
 
 
-![viewfinal](https://s6.uupload.ir/files/screenshot_(39)_l72s.png)
+![viewfinal](https://s6.uupload.ir/files/screenshot_(50)_iqb.png)
 
 - 📌[Demo Project](https://mehdisoleimaniweb.github.io/project6/)
 
