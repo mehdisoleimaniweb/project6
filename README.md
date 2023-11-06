@@ -7,7 +7,7 @@
 
 - Developed by mehdi soleimani
 
-- 💻Technologies Used - Html , css , sass ,
+- 💻Technologies Used - Html , css , sass ,bootstrap,
 
 - Role - Frontend
 
