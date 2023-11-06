@@ -1,0 +1,695 @@
+@import url("https://fonts.googleapis.com/css2?family=Outfit:wght@600&display=swap");
+li {
+  list-style-type: none;
+}
+
+a {
+  text-decoration: none;
+}
+
+.page1 {
+  background-image: url(../img/2.jpg);
+  background-size: cover;
+  position: relative;
+}
+.page1::before {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-color: rgba(0, 0, 0, 0.336);
+  z-index: 0;
+}
+
+.head__top {
+  border-bottom: 1px solid rgba(161, 159, 159, 0.363);
+}
+.head__top .row figure {
+  width: 150px;
+  z-index: 1;
+}
+.head__top .row figure img {
+  width: 100%;
+  height: 100%;
+  -o-object-fit: cover;
+     object-fit: cover;
+}
+.head__top .row .navmenu {
+  z-index: 1;
+}
+.head__top .row .navmenu ul li:nth-of-type(1) a {
+  color: #91765a;
+}
+.head__top .row .navmenu ul li a {
+  font-family: "Outfit", sans-serif;
+  transition: 0.3s;
+  color: #fff;
+  font-size: 13px;
+}
+.head__top .row .navmenu ul li a:hover {
+  color: #91765a;
+}
+.head__top .row div {
+  z-index: 1;
+}
+.head__top .row div a i {
+  color: #fff;
+  font-size: 28px;
+}
+
+.page2 div .row h5 {
+  z-index: 1;
+}
+.page2 div .row h5:nth-of-type(1) {
+  color: #fff;
+  font-family: "Outfit", sans-serif;
+  font-size: 15px;
+}
+.page2 div .row h5:nth-of-type(2) {
+  color: #fff;
+  font-family: "Outfit", sans-serif;
+  font-size: 15px;
+}
+.page2 div .row h1 {
+  z-index: 1;
+  width: 80%;
+  color: #fff;
+  font-family: "Outfit", sans-serif;
+}
+.page2 div .row a {
+  z-index: 1;
+  border: 1px solid wheat;
+  width: -moz-fit-content;
+  width: fit-content;
+  background-color: #fff;
+  color: #000;
+  font-family: "Outfit", sans-serif;
+  font-size: 14px;
+  transition: 0.4s;
+  border: none;
+}
+.page2 div .row a:hover {
+  background-color: #91765a;
+  color: #fff;
+}
+
+.page3 .row div:nth-of-type(1) p {
+  color: #91765a;
+}
+.page3 .row div:nth-of-type(1) p:nth-of-type(1) {
+  color: #91765a;
+  font-family: "Outfit", sans-serif;
+  font-size: 14px;
+}
+.page3 .row div:nth-of-type(1) p i {
+  color: #91765a;
+}
+.page3 .row div:nth-of-type(1) h2 {
+  color: #000;
+  font-size: 40px;
+  font-family: "Outfit", sans-serif;
+  font-weight: 800;
+}
+.page3 .row div:nth-of-type(2) figure {
+  overflow: hidden;
+}
+.page3 .row div:nth-of-type(2) figure:nth-of-type(1) {
+  width: 200px;
+}
+.page3 .row div:nth-of-type(2) figure:nth-of-type(1) img {
+  width: 100%;
+  height: 100%;
+  -o-object-fit: cover;
+     object-fit: cover;
+}
+.page3 .row div:nth-of-type(2) figure:nth-of-type(2) {
+  width: 200px;
+}
+.page3 .row div:nth-of-type(2) figure:nth-of-type(2) img {
+  width: 100%;
+  height: 100%;
+  -o-object-fit: cover;
+     object-fit: cover;
+}
+
+.page4 .row .titel1 h3 {
+  color: #000;
+  font-family: "Outfit", sans-serif;
+}
+.page4 .row .titel1 p {
+  color: #91765a;
+}
+
+.page5 {
+  background-color: #14100c;
+}
+.page5 .row figure {
+  width: 500px;
+  overflow: hidden;
+  height: 650px;
+}
+.page5 .row figure img {
+  width: 100%;
+  height: 100%;
+  -o-object-fit: cover;
+     object-fit: cover;
+}
+.page5 .row .titel2 h4 {
+  color: #91765a;
+  font-size: 14px;
+  font-family: "Outfit", sans-serif;
+}
+.page5 .row .titel2 h2 {
+  width: -moz-fit-content;
+  width: fit-content;
+  font-size: 50px;
+  color: #fff;
+  font-family: "Outfit", sans-serif;
+}
+.page5 .row .titel2 p {
+  color: #aba59f;
+}
+.page5 .row .titel2 div figure {
+  width: 70px;
+  height: 50px;
+}
+.page5 .row .titel2 div figure img {
+  width: 100%;
+  height: 100%;
+  -o-object-fit: cover;
+     object-fit: cover;
+}
+.page5 .row .titel2 div div p:nth-of-type(2) {
+  color: #91765a;
+}
+
+.page6 .row .titel3 h6 {
+  font-size: 16px;
+  color: #91765a;
+  font-family: "Outfit", sans-serif;
+}
+.page6 .row .titel3 h2 {
+  font-size: 50px;
+  font-family: "Outfit", sans-serif;
+}
+.page6 .row .row figure {
+  position: relative;
+  width: 350px;
+  height: 450px;
+  cursor: pointer;
+  overflow: hidden;
+  transition: 0.8s;
+  overflow: hidden;
+}
+.page6 .row .row figure:hover {
+  transform: scale(0.9);
+}
+.page6 .row .row figure:hover > div {
+  opacity: 1;
+  border-radius: 8px;
+}
+.page6 .row .row figure:hover > h2 {
+  top: 250px;
+}
+.page6 .row .row figure img {
+  width: 100%;
+  height: 100%;
+  -o-object-fit: cover;
+     object-fit: cover;
+  position: relative;
+  border-radius: 8px;
+}
+.page6 .row .row figure div {
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  background-color: rgba(0, 0, 0, 0.4509803922);
+  width: 100%;
+  height: 100%;
+  opacity: 0;
+  transition: 0.8s;
+}
+.page6 .row .row figure h2 {
+  color: #fff;
+  position: absolute;
+  top: 370px;
+  left: 90px;
+  width: -moz-fit-content;
+  width: fit-content;
+  transition: 0.8s;
+}
+.page6 .row .row figure:hover > figcaption {
+  bottom: 30px;
+  opacity: 1;
+  visibility: visible;
+}
+.page6 .row .row figure figcaption {
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  transition: 0.8s;
+  opacity: 0;
+  visibility: hidden;
+}
+.page6 .row .row figure figcaption p {
+  color: white;
+}
+.page6 .row .row figure figcaption h4 {
+  color: #91765a;
+}
+
+.page7 {
+  background-image: url(../img/6.jpg);
+  background-size: cover;
+  background-attachment: fixed;
+  position: relative;
+}
+.page7::after {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-color: rgba(0, 0, 0, 0.5019607843);
+}
+.page7 .row .titel4 {
+  width: 700px;
+  z-index: 1;
+}
+.page7 .row .titel4 div li i {
+  color: goldenrod;
+  font-size: 20px;
+}
+.page7 .row .titel4 p:nth-of-type(1) {
+  color: #fff;
+  font-size: 14px;
+}
+.page7 .row .titel4 p:nth-of-type(2) {
+  color: white;
+  font-size: 13px;
+  font-family: "Outfit", sans-serif;
+}
+.page7 .row .titel4 figure {
+  width: 80px;
+}
+.page7 .row .titel4 figure img {
+  width: 100%;
+  height: 100%;
+  border-radius: 50%;
+  border: 2px solid #91765a;
+}
+.page7 .row .titel4 h4 {
+  font-family: "Outfit", sans-serif;
+  color: #fff;
+  font-size: 20px;
+}
+
+.page8 .row .titel5 h6 {
+  color: #91765a;
+  font-family: "Outfit", sans-serif;
+  font-size: 14px;
+}
+.page8 .row .titel5 h2 {
+  font-family: "Outfit", sans-serif;
+  font-size: 50px;
+}
+.page8 .row .Pricing div {
+  font-size: 20px;
+  position: relative;
+}
+.page8 .row .Pricing div::after {
+  content: "20$";
+  position: absolute;
+  top: 0;
+  right: 0;
+  color: #91765a;
+  font-family: "Outfit", sans-serif;
+}
+.page8 .row .Pricing div:nth-of-type(2) {
+  position: relative;
+}
+.page8 .row .Pricing div:nth-of-type(2)::after {
+  content: "30$";
+  position: absolute;
+  top: 0;
+  right: 0;
+  color: #91765a;
+  font-family: "Outfit", sans-serif;
+}
+.page8 .row .Pricing div:nth-of-type(3) {
+  position: relative;
+}
+.page8 .row .Pricing div:nth-of-type(3)::after {
+  content: "45$";
+  position: absolute;
+  top: 0;
+  right: 0;
+  color: #91765a;
+  font-family: "Outfit", sans-serif;
+}
+.page8 .row .Pricing div:nth-of-type(4) {
+  position: relative;
+}
+.page8 .row .Pricing div:nth-of-type(4)::after {
+  content: "25$";
+  position: absolute;
+  top: 0;
+  right: 0;
+  color: #91765a;
+  font-family: "Outfit", sans-serif;
+}
+.page8 .row .Pricing p {
+  color: #625c56;
+}
+.page8 .row .Barber div {
+  font-size: 20px;
+  position: relative;
+}
+.page8 .row .Barber div::after {
+  content: "10$";
+  position: absolute;
+  top: 0;
+  right: 0;
+  color: #91765a;
+  font-family: "Outfit", sans-serif;
+}
+.page8 .row .Barber div:nth-of-type(2) {
+  position: relative;
+}
+.page8 .row .Barber div:nth-of-type(2)::after {
+  content: "15$";
+  position: absolute;
+  top: 0;
+  right: 0;
+  color: #91765a;
+  font-family: "Outfit", sans-serif;
+}
+.page8 .row .Barber div:nth-of-type(3) {
+  position: relative;
+}
+.page8 .row .Barber div:nth-of-type(3)::after {
+  content: "25$";
+  position: absolute;
+  top: 0;
+  right: 0;
+  color: #91765a;
+  font-family: "Outfit", sans-serif;
+}
+.page8 .row .Barber div:nth-of-type(4) {
+  position: relative;
+}
+.page8 .row .Barber div:nth-of-type(4)::after {
+  content: "60$";
+  position: absolute;
+  top: 0;
+  right: 0;
+  color: #91765a;
+  font-family: "Outfit", sans-serif;
+}
+.page8 .row .Barber p {
+  color: #625c56;
+}
+
+.page9 {
+  background-color: #14100c;
+}
+.page9 div .row h6 {
+  font-size: 14px;
+  color: #91765a;
+  font-family: "Outfit", sans-serif;
+}
+.page9 div .row h2 {
+  font-family: "Outfit", sans-serif;
+  font-size: 50px;
+  color: #fff;
+}
+.page9 div .Blog figure {
+  width: 800px;
+  position: relative;
+}
+.page9 div .Blog figure:hover::after {
+  opacity: 1;
+  border-radius: 8px;
+}
+.page9 div .Blog figure:hover > figcaption {
+  bottom: 0px;
+}
+.page9 div .Blog figure::after {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-color: rgba(0, 0, 0, 0.2);
+  opacity: 0;
+  transition: 0.4s;
+}
+.page9 div .Blog figure img {
+  width: 100%;
+  overflow: hidden;
+  border-radius: 8px;
+}
+.page9 div .Blog figure span {
+  position: absolute;
+  top: 30px;
+  left: 30px;
+  color: white;
+  font-family: "Outfit", sans-serif;
+  width: -moz-fit-content;
+  width: fit-content;
+  padding: 30px 5px;
+  background-color: #91765a;
+  border: none;
+  z-index: 1;
+}
+.page9 div .Blog figure figcaption {
+  cursor: pointer;
+  z-index: 1;
+  position: absolute;
+  bottom: -40px;
+  left: 50px;
+  padding: 20px 30px;
+  background-color: #fff;
+  width: 80%;
+  transition: 0.2s;
+}
+.page9 div .Blog figure figcaption h6 {
+  font-family: "Outfit", sans-serif;
+  font-size: 14px;
+}
+.page9 div .Blog figure figcaption h2 {
+  font-size: 25px;
+  font-family: "Outfit", sans-serif;
+  color: #000;
+}
+
+.page10 {
+  background-image: url(../img/20.jpg);
+  background-size: cover;
+  background-attachment: fixed;
+  position: relative;
+}
+.page10::after {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-color: rgba(0, 0, 0, 0.4431372549);
+}
+.page10 .row .Salon {
+  z-index: 1;
+}
+.page10 .row .Salon div li i {
+  color: goldenrod;
+}
+.page10 .row .Salon h2 {
+  color: #fff;
+  font-family: "Outfit", sans-serif;
+}
+.page10 .row .Salon div figure img {
+  background-image: inherit;
+}
+.page10 .row .Salon div h6 {
+  color: #91765a;
+  font-family: "Outfit", sans-serif;
+}
+.page10 .row .Salon div h3 {
+  color: white;
+}
+.page10 .row .Appointment {
+  z-index: 1;
+}
+.page10 .row .Appointment div {
+  width: 400px;
+  height: 400px;
+  background-color: rgb(235, 231, 224);
+}
+.page10 .row .Appointment .tabell h2 {
+  font-family: "Outfit", sans-serif;
+}
+.page10 .row .Appointment .tabell input:nth-of-type(1) {
+  outline: none;
+  border: none;
+}
+.page10 .row .Appointment .tabell input:nth-of-type(2) {
+  outline: none;
+  border: none;
+}
+.page10 .row .Appointment .tabell input:nth-of-type(3) {
+  outline: none;
+  border: none;
+}
+.page10 .row .Appointment .tabell .times {
+  outline: none;
+  border: none;
+}
+.page10 .row .Appointment .tabell .times:nth-of-type(1) option {
+  background-color: #91765a;
+}
+.page10 .row .Appointment .tabell .services {
+  outline: none;
+  border: none;
+}
+.page10 .row .Appointment .tabell .services:nth-of-type(2) option {
+  background-color: #91765a;
+}
+.page10 .row .Appointment .tabell .barber {
+  outline: none;
+  border: none;
+}
+.page10 .row .Appointment .tabell .barber:nth-of-type(3) option {
+  background-color: #91765a;
+}
+.page10 .row .Appointment .tabell button {
+  border: none;
+  background-color: #91765a;
+  color: #fff;
+  transition: 0.4s;
+  font-family: "Outfit", sans-serif;
+}
+.page10 .row .Appointment .tabell button:hover {
+  background: #14100c;
+  font-family: "Outfit", sans-serif;
+}
+
+.footer {
+  background-color: #14100c;
+}
+.footer .row .contact h2 {
+  color: #fff;
+  font-family: "Outfit", sans-serif;
+}
+.footer .row .contact p {
+  color: #aba59f;
+}
+.footer .row .contact h3 {
+  color: #91765a;
+}
+.footer .row .contact h6 {
+  color: #aba59f;
+}
+.footer .row .contact div li i {
+  cursor: pointer;
+  color: #91765a;
+  transition: 0.4s;
+}
+.footer .row .contact div li i:hover {
+  color: white;
+}
+.footer .row .worktime h2 {
+  color: white;
+  font-family: "Outfit", sans-serif;
+}
+.footer .row .worktime span {
+  font-size: 16px;
+}
+.footer .row .worktime span:nth-of-type(1) {
+  color: #aba59f;
+  position: relative;
+}
+.footer .row .worktime span:nth-of-type(1)::after {
+  content: "10:00 - 20:00";
+  position: absolute;
+  top: 0;
+  right: 0;
+  color: #aba59f;
+}
+.footer .row .worktime span:nth-of-type(2) {
+  color: #aba59f;
+  position: relative;
+}
+.footer .row .worktime span:nth-of-type(2)::after {
+  content: "10:00 - 20:00";
+  position: absolute;
+  top: 0;
+  right: 0;
+  color: #aba59f;
+}
+.footer .row .worktime span:nth-of-type(3) {
+  color: #aba59f;
+  position: relative;
+}
+.footer .row .worktime span:nth-of-type(3)::after {
+  content: "10:00 - 20:00";
+  position: absolute;
+  top: 0;
+  right: 0;
+  color: #aba59f;
+}
+.footer .row .worktime span:nth-of-type(4) {
+  color: #aba59f;
+  position: relative;
+}
+.footer .row .worktime span:nth-of-type(4)::after {
+  content: "10:00 - 20:00";
+  position: absolute;
+  top: 0;
+  right: 0;
+  color: #aba59f;
+}
+.footer .row .worktime span:nth-of-type(5) {
+  color: #aba59f;
+  position: relative;
+}
+.footer .row .worktime span:nth-of-type(5)::after {
+  content: "10:00 - 20:00";
+  position: absolute;
+  top: 0;
+  right: 0;
+  color: #aba59f;
+}
+.footer .row .worktime span:nth-of-type(6) {
+  color: #aba59f;
+  position: relative;
+}
+.footer .row .worktime span:nth-of-type(6)::after {
+  content: "Closed";
+  position: absolute;
+  top: 0;
+  right: 0;
+  color: #aba59f;
+}
+.footer .row .Subscribe h2 {
+  color: #fff;
+}
+.footer .row .Subscribe p {
+  color: #aba59f;
+}
+.footer .row .Subscribe input {
+  outline: none;
+  border: 1px solid #91765a;
+  background-color: inherit;
+  color: #625c56;
+}
+.footer .row .Subscribe button {
+  border: none;
+  font-family: "Outfit", sans-serif;
+  background-color: #91765a;
+  color: #fff;
+}/*# sourceMappingURL=master.css.map */
